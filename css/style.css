@@ -1,0 +1,26 @@
+:root{
+    --fontFamily:"athelas-arabic-variable" ,monospace ;
+    --primaryColor:rgb(231 177 61);
+    /* #fdefbe */
+    --secondaryColor:white;
+    --textColor: #0a0202;
+}
+
+body{
+    margin:0;
+}
+.container{
+    width:80%;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+@media(max-width:1200px){
+    .container{
+        width:95% !important;
+        margin: auto;
+    }
+}
